@@ -1,11 +1,12 @@
 * {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	border: 1px dashed black;
+	/*border: 1px dashed black;*/
 }
 
 
 body{
+	position: relative;
 	margin: 10px;
 	background-color: rgba(63, 191, 127, 0.51);
 	height: 800px;
@@ -38,7 +39,7 @@ body{
 
 #button-wrapper{
 	position: relative;
-	bottom: -60px;
+	bottom: -56px;
 	height: 50px;
 	width: 90%;
 	margin:auto;
@@ -53,7 +54,6 @@ button{
 	height: 40px;
 	border: 1px solid black;
 	border-radius: 5px;
-	border-left: 2px;
 	opacity: 1;
 }
 
@@ -69,11 +69,22 @@ button:hover{
 	margin: 10px auto;
 	line-height: 0;
 	border: 0;
-	background-color: grey;
+	background-color: white;
+	overflow: hidden;
 }
 
 .node{
 	display: inline-block;
 	background-color: white;
 	border: 0;
+}
+
+#bottom-button-wrapper{
+	position: relative;
+	bottom:13px;
+	height: 50px;
+	width: 90%;
+	margin:auto;
+	overflow: auto;
+	text-align: center;
 }

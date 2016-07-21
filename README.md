@@ -8,3 +8,5 @@ Outcomes:
 -practice creating webpages with html and css
 -familiarize with the fundamentals of javascript and jQuery
 -practice version control with github
+
+Preview: http://htmlpreview.github.io/?https://github.com/5kippy/sounds-sketchy/blob/master/index.html

@@ -12,10 +12,13 @@ body{
 }
 
 #title{
+	position: relative;
 	text-align: center;
 	font-size: 32px;
+	padding: 0;
+	margin:0 0 5px 0;
+	width: 100%;
 	color: rgb(38, 12, 38);
-	padding:0px 20px;
 	border: 1px solid purple;
 	border-radius: 10px;
 	background-color: rgb(51, 153, 102);
@@ -51,29 +54,22 @@ button{
 	border: 1px solid black;
 	border-radius: 5px;
 	border-left: 2px;
-	opacity: 0.9;
-}
-
-button:hover{
-	font-size: 17px;
-	border: 2px solid black;
 	opacity: 1;
 }
 
-#grid-wrapper{
-	position: relative;
-	width: 700px;
-	height: 550px;
-	margin: 5px auto;
-	border: 1px solid purple;
+button:hover{
+	border: 2px solid black;
+	opacity: 0.8;
 }
 
+
 #grid{
-	width:500px;
-	height: 500px;
+	width:600px;
+	height: 550px;
 	margin: 10px auto;
 	line-height: 0;
 	border: 0;
+	background-color: grey;
 }
 
 .node{

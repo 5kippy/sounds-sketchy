@@ -1,0 +1,83 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border: 1px dashed black;
+}
+
+
+body{
+	margin: 10px;
+	background-color: rgba(63, 191, 127, 0.51);
+	height: 800px;
+}
+
+#title{
+	text-align: center;
+	font-size: 32px;
+	color: rgb(38, 12, 38);
+	padding:0px 20px;
+	border: 1px solid purple;
+	border-radius: 10px;
+	background-color: rgb(51, 153, 102);
+
+}
+
+#intro{
+	position: relative;
+	width: 95%;
+	height:150px;
+	margin:auto;
+	border: 1px solid purple;
+	border-radius: 10px;
+	background-color: rgb(51, 153, 102);
+
+}
+
+#button-wrapper{
+	position: relative;
+	bottom: -60px;
+	height: 50px;
+	width: 90%;
+	margin:auto;
+	overflow: auto;
+	background-color: purple;
+	text-align: center;
+}
+
+button{
+	margin: 5px 7px;
+	width: 110px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 5px;
+	border-left: 2px;
+	opacity: 0.9;
+}
+
+button:hover{
+	font-size: 17px;
+	border: 2px solid black;
+	opacity: 1;
+}
+
+#grid-wrapper{
+	position: relative;
+	width: 700px;
+	height: 550px;
+	margin: 5px auto;
+	border: 1px solid purple;
+}
+
+#grid{
+	width:500px;
+	height: 500px;
+	margin: 10px auto;
+	line-height: 0;
+	border: 0;
+}
+
+.node{
+	display: inline-block;
+	background-color: white;
+	border: 0;
+}

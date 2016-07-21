@@ -12,6 +12,10 @@ body{
 	height: 800px;
 }
 
+p{
+	text-align: center;
+}
+
 #title{
 	position: relative;
 	text-align: center;
@@ -29,8 +33,9 @@ body{
 #intro{
 	position: relative;
 	width: 95%;
-	height:150px;
+	height:100px;
 	margin:auto;
+	padding: 10px 10px;
 	border: 1px solid purple;
 	border-radius: 10px;
 	background-color: rgb(51, 153, 102);
@@ -39,7 +44,7 @@ body{
 
 #button-wrapper{
 	position: relative;
-	bottom: -56px;
+	bottom: 15px;
 	height: 50px;
 	width: 90%;
 	margin:auto;
